@@ -1,0 +1,71 @@
+.skill_{
+    
+}
+.skill{
+      width: 50%;
+        margin: 3rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0.7rem;
+        border-radius: 22px;
+        background: #212428;
+        box-shadow: inset 5px 5px 10px #0f1012,
+            inset -5px -5px 10px #33383e; 
+    }
+    .skill_inner_div{
+        margin: 0.8rem 0.4rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .skill_inner_div .skill_first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon1{
+        font-size: 2rem;
+    }
+    .skill_inner_div .skill_second{
+        padding: 4px 6px;
+        width:80%;
+        
+        border-radius: 12px;
+        box-shadow: 5px 5px 10px #0f1012,
+        -5px -5px 10px #33383e;
+    
+    }
+     .skill_inner_div div div{
+        height: 20px;
+       
+    }
+    @media screen and (max-width:683px) {
+        .skill{
+            width: 80%;
+        }
+        .icon1{
+            font-size: 1.5rem;
+        }
+        .skill_inner_div .skill_first{
+           font-size: 0.8rem;
+        }
+    }
+    @media screen and (max-width:467px) {
+        .skill{
+            width: 89%;
+        }
+        .icon1{
+            font-size: 1.5rem;
+        }
+        .skill_inner_div div{
+            padding: 2px 1px;
+        }
+        .skill_inner_div div div{
+            height: 16px;
+           
+        }
+    }

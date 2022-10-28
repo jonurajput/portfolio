@@ -1,0 +1,76 @@
+.contactpage{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.contact_head{
+    transform: translateY(5vh);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #ff014f;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #23272b, #1e2024);
+    box-shadow: 5px 5px 10px #0f1012,
+        -5px -5px 10px #33383e;
+}
+.contact {
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.7rem;
+    border-radius: 22px;
+    background: linear-gradient(145deg, #23272b, #1e2024);
+    box-shadow: 5px 5px 10px #0f1012,
+        -5px -5px 10px #33383e;
+       
+    }
+    
+.contact label {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+
+}
+
+.input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 8px;
+    color: #f5f5f7;
+    border-radius: 12px;
+    background: #212428;
+    box-shadow: inset 5px 5px 10px #0f1012,
+        inset -5px -5px 10px #33383e;
+}
+
+.contact button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+font-weight: 700;
+    border: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 22px;
+    color: #f5f5f7;
+    background: linear-gradient(145deg, #23272b, #1e2024);
+    box-shadow: 5px 5px 10px #0f1012,
+        -5px -5px 10px #33383e;
+}
+
+.contact button:hover {
+    background: #212428;
+    box-shadow: inset 5px 5px 10px #0f1012,
+        inset -5px -5px 10px #33383e;
+}
+
+.teaxtarea {
+    height: 15vh;
+}
